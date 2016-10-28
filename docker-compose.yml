@@ -1,0 +1,7 @@
+bonjour:
+ build: .
+ environment:
+  MONGODB: mongodb://dmz.cloudinsight.cc:27017/analytics
+ dns: 223.5.5.5
+ net: "host"
+ restart: always

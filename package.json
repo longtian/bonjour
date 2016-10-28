@@ -1,0 +1,25 @@
+{
+  "name": "bonjour-activity",
+  "version": "0.0.0",
+  "description": "Log activities in network",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metabase-scripts/bonjour.git"
+  },
+  "keywords": [],
+  "author": "wyvernnot <wyvernnot@gmail.com> (http://wyvernnot.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metabase-scripts/bonjour/issues"
+  },
+  "homepage": "https://github.com/metabase-scripts/bonjour#readme",
+  "dependencies": {
+    "bonjour": "^3.5.0",
+    "mongodb": "^2.2.11"
+  }
+}
